@@ -1,0 +1,41 @@
+html{
+  padding-top: 150px;
+  padding-bottom: 112px;
+}
+
+body{
+  padding-top: 72px;
+  padding-bottom: 112px;
+  background-color:#edf0f5;
+
+}
+h1{
+  color: red;
+  font-size: 50px;
+  margin: 0;
+}
+h2{
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin-top:10px;
+}
+ul {
+  list-style-type: none;
+  padding-right: 100px;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 500px 550px;
+  margin-left: 461px;
+  margin-right: 461px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#grid #article{
+  padding-left:150px;
+  width: 396px;
+  height: 456px;
+}
